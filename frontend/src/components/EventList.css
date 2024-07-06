@@ -1,0 +1,71 @@
+/* src/EventList.css */
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .event-card {
+    background-color: #e0e0ff; /* Light blue background */
+    border: 1px solid #00008B; /* Classic dark blue */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 4px 8px #00008B; /* Classic dark blue */
+  }
+  
+  .event-info {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .event-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #00008B; /* Classic dark blue */
+  }
+  
+  .event-date {
+    color: #555;
+  }
+  
+  .event-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background-color: #00008B; /* Classic dark blue */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #000060; /* Darker shade for hover effect */
+    transform: scale(1.05);
+  }
+  
+  .delete-btn:hover {
+    background-color: red; /* Red for delete button hover */
+    color: white;
+  }
+  
+  .rem-para {
+    background-color: #FFD700; /* Gold */
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  

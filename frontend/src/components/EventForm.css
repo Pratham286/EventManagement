@@ -1,0 +1,43 @@
+/* src/EventForm.css */
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #00008B; /* Classic dark blue */
+	padding: 20px;
+	border-radius: 10px;
+	background: linear-gradient(to right, #e0e0ff, #c0c0ff); /* Light blue gradient */
+	gap: 10px;
+	margin: 20px 0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  input, button {
+	padding: 10px;
+	width: 300px;
+	margin: 5px 0;
+	border: 1px solid #00008B; /* Classic dark blue */
+	border-radius: 5px;
+	font-size: 1em;
+  }
+  
+  button {
+	background-color: #00008B; /* Classic dark blue */
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+	background-color: #000060; /* Darker shade for hover effect */
+	transform: scale(1.05);
+  }
+  
+  label {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 700;
+	color: #00008B; /* Classic dark blue */
+  }
+  
